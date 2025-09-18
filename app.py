@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image, ImageOps, ImageFilter
 import numpy as np
 
-st.title("Pencil Sketch (no OpenCV)")
+st.title("Pencil Sketch")
 
 uploaded_file = st.file_uploader("Upload image", type=["jpg","jpeg","png"])
 if uploaded_file:
